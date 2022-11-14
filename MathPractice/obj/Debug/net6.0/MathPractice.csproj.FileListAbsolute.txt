@@ -1,0 +1,15 @@
+C:\Users\varda\Desktop\MathPractice\MathPractice\bin\Debug\net6.0\MathPractice.exe
+C:\Users\varda\Desktop\MathPractice\MathPractice\bin\Debug\net6.0\MathPractice.deps.json
+C:\Users\varda\Desktop\MathPractice\MathPractice\bin\Debug\net6.0\MathPractice.runtimeconfig.json
+C:\Users\varda\Desktop\MathPractice\MathPractice\bin\Debug\net6.0\MathPractice.dll
+C:\Users\varda\Desktop\MathPractice\MathPractice\bin\Debug\net6.0\MathPractice.pdb
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\MathPractice.csproj.AssemblyReference.cache
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\MathPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\MathPractice.AssemblyInfoInputs.cache
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\MathPractice.AssemblyInfo.cs
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\MathPractice.csproj.CoreCompileInputs.cache
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\MathPractice.dll
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\refint\MathPractice.dll
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\MathPractice.pdb
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\MathPractice.genruntimeconfig.cache
+C:\Users\varda\Desktop\MathPractice\MathPractice\obj\Debug\net6.0\ref\MathPractice.dll
