@@ -4,14 +4,16 @@
     {
         static void Main(string[] args)
         {
-            // function1();
-           // function2();
-           // function3();
-            //function4();
-            //function5();
-             //function6();
-             //function7();
+             function1();
+            function2();
+            function3();
+            function4();
+            function5();
+             function6();
+             function7();
              function8();
+            function9();
+            function10();
 
 
         }
@@ -189,7 +191,7 @@
             Console.WriteLine("  ");
             Console.WriteLine("  ");
             Console.WriteLine("      ----------      ");
-            Console.WriteLine("  *** Odd numbers *** ");
+            Console.WriteLine("  *** Count  Odd numbers *** ");
             Console.Write("enter first number : ");
             double Odd1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("enter second number : ");
@@ -198,12 +200,13 @@
             double Odd3 = Convert.ToInt32(Console.ReadLine());
 
             int odd = 0;
+            
 
-            if (Odd1 % 2 == 1)
+           if (Math.Abs(Odd1 % 2 - 1) >= 1)
             {
-                if (Odd2 % 2 == 1)
+                if (Math.Abs(Odd2 % 2 - 1) >= 1)
                 {
-                    if (Odd3 % 2 == 1)
+                    if (Math.Abs(Odd3 % 2 - 1) >= 1)
                     {
                         odd++;
                     }
@@ -212,10 +215,78 @@
                 }
 
                 odd++;
-            }
-            Console.WriteLine($"There is {odd} OddNumber");
+            } 
+
+         Console.WriteLine($"There is {odd} numbers");
+            
 
         }
+        
+        //count numbers which is greater than 10
+        static void function9()
+        {
+            Console.WriteLine("  ");
+            Console.WriteLine("  ");
+            Console.WriteLine("      ----------      ");
+            Console.WriteLine("  *** count />10/ numbers *** ");
+            Console.Write("enter first number : ");
+            double greaterthan1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("enter second number : ");
+            double greaterthan2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("enter third number : ");
+            double greaterthan3 = Convert.ToInt32(Console.ReadLine());
+
+            int greaterThan10 = 0;
+            
+
+            if (greaterthan1 > 10)
+            {
+                if (greaterthan2 > 10)
+                {
+                    if (greaterthan3 > 10)
+                    {
+                        greaterThan10++;
+                    }
+
+                    greaterThan10++;
+                }
+
+                greaterThan10++;
+            } 
+
+            Console.WriteLine($"There is {greaterThan10}  numbers which is greater than 10");
+            
+
+        }
+
+
+        static void function10()
+        {
+            Console.WriteLine("  ");
+            Console.WriteLine("  ");
+            Console.WriteLine("      ----------      ");
+            Console.WriteLine("  *** show message if number equlas 30 or lower than 5 *** ");
+            Console.Write("enter first number : ");
+            double lastOne = Convert.ToInt32(Console.ReadLine());
+            if (lastOne == 30)
+            {
+                Console.Write($"{lastOne} equals to 30 ");
+            } 
+            else if (lastOne <= 5)
+            {
+                Console.WriteLine("your answer is right");
+            }
+            else
+            {
+                Console.WriteLine("Your number does not meet the requirements");
+            }
+            
+       
+
+
+
+        }
+
 
     }
 }
